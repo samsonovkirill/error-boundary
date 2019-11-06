@@ -1,3 +1,7 @@
+
+This app is an example for article 'How to handle exceptions in React application?'
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
