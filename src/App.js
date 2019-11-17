@@ -1,4 +1,5 @@
 import React from 'react';
+import * as Sentry from '@sentry/browser';
 import './App.css';
 import { Layout } from 'antd';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -12,6 +13,8 @@ import Page2 from './components/Pages/Page2';
 import Page3 from './components/Pages/Page3';
 
 const { Header, Sider, Content } = Layout;
+
+Sentry.init({dsn: "https://12345@sentry.io/12345"});
 
 
 function App() {
